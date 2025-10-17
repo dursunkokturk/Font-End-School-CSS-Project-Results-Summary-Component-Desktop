@@ -47,6 +47,7 @@ body {
   align-items: center;
   flex-direction: column;
   margin-bottom: 28px;
+  background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
 }
 
 .container .left .oval h1 {
