@@ -11,16 +11,20 @@ body {
 .container {
   width: 736px;
   height: 512px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
 }
 
 .container .left {
   width: 368px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
   color: white;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
 }
 
 .container .left .title {
@@ -34,7 +38,7 @@ body {
 }
 
 .container .left .oval {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -83,7 +87,7 @@ body {
 
 .container .right {
   width: 300px;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .container .right h2 {
